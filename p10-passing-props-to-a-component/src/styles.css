@@ -1,0 +1,15 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.avatar {
+  border-radius: 50%;
+  margin: 0 10px;
+}
+.profile {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px 15px;
+  margin: 10px;
+}

@@ -1,0 +1,11 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.btn {
+  border-radius: 20px;
+}
+.avatar {
+  border-radius: 50%;
+}

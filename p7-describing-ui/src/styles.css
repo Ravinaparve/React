@@ -1,0 +1,9 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.personInfo {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 15px 10px;
+}

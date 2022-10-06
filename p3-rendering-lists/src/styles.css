@@ -1,0 +1,15 @@
+.App {
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  border-radius: 50%;
+}
+
+li.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
