@@ -1,6 +1,7 @@
 import List from "./List";
 import Poem from "./Poem";
 import RecipeList from "./RecipeList";
+import SculptureList from "./SculptureList";
 import "./styles.css";
 
 export default function App() {
@@ -42,6 +43,11 @@ export default function App() {
 
       <h2>A Peom</h2>
       <Poem />
+
+      <div className="sculpture">
+        <h2>Sculptures Information</h2>
+        <SculptureList />
+      </div>
     </div>
   );
 }
