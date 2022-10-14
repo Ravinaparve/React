@@ -13,6 +13,11 @@ let initialpainters = [
 
 export default function RemoveList() {
   const [painters, setPainter] = useState(initialpainters);
+
+  //Method 1 : creatidng a seperate function
+  function handleDeleteClick(painterId) {
+    setPainter(painters.filter((p) => p.id !== painterId));
+  }
   return (
     <>
       <h4>Inspiring Painters</h4>
@@ -20,11 +25,13 @@ export default function RemoveList() {
         {painters.map((painter) => (
           <li key={painter.id}>
             {painter.name}
-            <button
+            {/*  Method 2 : inline event handler*/}
+            {/* <button
               onClick={() =>
                 setPainter(painters.filter((p) => p.id !== painter.id))
               }
-            >
+            > */}
+            <button onClick={() => handleDeleteClick(painter.id)}>
               Delete
             </button>
           </li>
